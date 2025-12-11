@@ -1,8 +1,9 @@
 scipy
 streamlit
-pandas
-numpy
+gTTS
+Pillow
+SpeechRecognition
+audio-recorder-streamlit
 matplotlib
 seaborn
-
 
