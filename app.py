@@ -1,11 +1,3 @@
-import subprocess, sys
-
-try:
-    import scipy
-except ModuleNotFoundError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "scipy"])
-    import scipy
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -109,4 +101,3 @@ plt.title('Total Units Sold by Category')
 plt.xlabel('Category')
 plt.ylabel('Total Units Sold')
 st.pyplot(plt)
-
